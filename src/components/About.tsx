@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const About = () => {
@@ -15,35 +14,22 @@ const About = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
-              I'm a passionate frontend developer with a love for creating beautiful, 
-              functional web experiences. At 30, I've found my calling in transforming 
-              ideas into interactive digital solutions that make a real difference.
+              I am an aspiring Frontend Developer who values autonomism—I believe in taking initiative 
+              and working independently to solve problems and build effective web applications. 
+              Although I am at the beginning of my career, I am motivated to learn and grow by 
+              exploring new technologies and frameworks on my own.
             </p>
             
             <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
-              My journey in web development has been driven by curiosity and a desire 
-              to constantly learn and grow. I specialize in modern JavaScript frameworks, 
-              responsive design, and creating user interfaces that are both aesthetically 
-              pleasing and highly functional.
+              I have a solid foundation in HTML, CSS, and JavaScript, and I am gaining experience 
+              with popular frontend frameworks like React and Vue. I'm also learning about 
+              authorization techniques to build secure and user-friendly interfaces.
             </p>
 
             <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
-              When I'm not coding, you'll find me exploring new design trends, 
-              contributing to open-source projects, or mentoring other women in tech. 
-              I believe in the power of technology to create positive change and 
-              am always excited to work on projects that make an impact.
+              I'm excited about the journey ahead and open to opportunities where I can contribute 
+              and develop as a frontend developer.
             </p>
-
-            <div className="grid grid-cols-2 gap-6 mt-8">
-              <div className="text-center p-6 bg-purple-50 dark:bg-gray-800 rounded-lg">
-                <div className="text-3xl font-bold text-purple-600 dark:text-purple-400 mb-2">5+</div>
-                <div className="text-gray-600 dark:text-gray-300">Years Experience</div>
-              </div>
-              <div className="text-center p-6 bg-pink-50 dark:bg-gray-800 rounded-lg">
-                <div className="text-3xl font-bold text-pink-600 dark:text-pink-400 mb-2">50+</div>
-                <div className="text-gray-600 dark:text-gray-300">Projects Completed</div>
-              </div>
-            </div>
           </div>
 
           <div className="relative">
@@ -74,13 +60,13 @@ const About = () => {
                 <div className="flex items-center space-x-3">
                   <div className="w-3 h-3 bg-pink-500 rounded-full"></div>
                   <span className="text-gray-700 dark:text-gray-300">
-                    Performance Optimization
+                    Graphic Design (Adobe Suite)
                   </span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <div className="w-3 h-3 bg-purple-500 rounded-full"></div>
                   <span className="text-gray-700 dark:text-gray-300">
-                    Cross-browser Compatibility
+                    Video Editing & Motion Graphics
                   </span>
                 </div>
               </div>

@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const Hero = () => {
@@ -24,7 +23,7 @@ const Hero = () => {
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-gray-900 dark:text-white mb-6">
             Hi, I'm{' '}
             <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
-              Sarah
+              Wafa Ben Noura
             </span>
           </h1>
           

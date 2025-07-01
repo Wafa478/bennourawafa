@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const Footer = () => {
@@ -8,23 +7,12 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8">
           <div>
             <h3 className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent mb-4">
-              Sarah Dev
+              Wafa Dev
             </h3>
             <p className="text-gray-300 mb-4">
               Frontend Developer passionate about creating beautiful, 
               user-friendly web experiences.
             </p>
-            <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-purple-400 transition-colors duration-200">
-                LinkedIn
-              </a>
-              <a href="#" className="text-gray-400 hover:text-purple-400 transition-colors duration-200">
-                GitHub
-              </a>
-              <a href="#" className="text-gray-400 hover:text-purple-400 transition-colors duration-200">
-                Twitter
-              </a>
-            </div>
           </div>
 
           <div>
@@ -74,7 +62,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
           <p className="text-gray-400">
-            © 2024 Sarah Dev. Built with React & Tailwind CSS. Made with 💜
+            © 2025 Wafa — Frontend Developer
           </p>
         </div>
       </div>

@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { useToast } from '@/hooks/use-toast';
 
@@ -60,11 +59,13 @@ const Contact = () => {
               <div className="space-y-6">
                 <div className="flex items-center space-x-4">
                   <div className="w-12 h-12 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg flex items-center justify-center">
-                    <span className="text-white text-xl">📧</span>
+                    <span className="text-white text-xl">🐙</span>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900 dark:text-white">Email</h4>
-                    <p className="text-gray-600 dark:text-gray-300">sarah.dev@email.com</p>
+                    <h4 className="font-semibold text-gray-900 dark:text-white">GitHub</h4>
+                    <a href="https://github.com/wafa478" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors">
+                      github.com/wafa478
+                    </a>
                   </div>
                 </div>
 
@@ -74,17 +75,21 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900 dark:text-white">LinkedIn</h4>
-                    <p className="text-gray-600 dark:text-gray-300">linkedin.com/in/sarah-dev</p>
+                    <a href="https://linkedin.com/in/wafa-ben-noura" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors">
+                      wafa ben noura
+                    </a>
                   </div>
                 </div>
 
                 <div className="flex items-center space-x-4">
                   <div className="w-12 h-12 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg flex items-center justify-center">
-                    <span className="text-white text-xl">🐙</span>
+                    <span className="text-white text-xl">📧</span>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900 dark:text-white">GitHub</h4>
-                    <p className="text-gray-600 dark:text-gray-300">github.com/sarah-dev</p>
+                    <h4 className="font-semibold text-gray-900 dark:text-white">Email</h4>
+                    <a href="mailto:wafabennoura@gmail.com" className="text-gray-600 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors">
+                      wafabennoura@gmail.com
+                    </a>
                   </div>
                 </div>
 
@@ -94,7 +99,9 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900 dark:text-white">Phone</h4>
-                    <p className="text-gray-600 dark:text-gray-300">+1 (555) 123-4567</p>
+                    <a href="tel:+21693884492" className="text-gray-600 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors">
+                      +216 93 884 492
+                    </a>
                   </div>
                 </div>
               </div>

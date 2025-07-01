@@ -1,42 +1,27 @@
-
 import React from 'react';
 
 const Experience = () => {
   const experiences = [
     {
-      type: 'work',
-      title: 'Senior Frontend Developer',
-      company: 'TechFlow Solutions',
-      period: '2022 - Present',
-      description: 'Leading frontend development for multiple client projects, implementing modern React applications and ensuring optimal user experiences.'
-    },
-    {
-      type: 'work',
-      title: 'Frontend Developer',
-      company: 'Digital Innovations Inc.',
-      period: '2020 - 2022',
-      description: 'Developed responsive web applications using React, Vue.js, and modern CSS frameworks. Collaborated with UX/UI designers to implement pixel-perfect designs.'
+      type: 'education',
+      title: 'Master\'s in Web Development',
+      company: 'Current Training Program',
+      period: '2024 - Present (9 months)',
+      description: 'Currently enrolled in a comprehensive 9-month Master\'s program focused on web development technologies, modern frameworks, and full-stack development practices.'
     },
     {
       type: 'education',
-      title: 'Advanced Web Development Bootcamp',
-      company: 'CodeAcademy Pro',
-      period: '2019 - 2020',
-      description: 'Intensive 12-month program covering full-stack development with focus on modern JavaScript, React, and Node.js.'
-    },
-    {
-      type: 'work',
-      title: 'Junior Web Developer',
-      company: 'StartUp Creative',
-      period: '2019 - 2020',
-      description: 'Built and maintained company websites, learned version control with Git, and gained experience in agile development methodologies.'
+      title: 'Bachelor\'s Degree in Computer Networks',
+      company: 'Higher Institute of Computer Science and Communication Technologies (ISITCom), Hammam Sousse, Tunisia',
+      period: '2017 - 2020',
+      description: 'Completed a 3-year program specializing in Information and Network Technologies. Gained strong foundation in computer science, networking principles, and information technology systems.'
     },
     {
       type: 'education',
-      title: 'Bachelor of Computer Science',
-      company: 'State University',
-      period: '2015 - 2019',
-      description: 'Focused on software engineering principles, data structures, and computer systems. Graduated with honors.'
+      title: 'Tunisian Baccalaureate in Experimental Sciences',
+      company: 'Secondary School of Sidi El Hani, Sousse, Tunisia',
+      period: '2016',
+      description: 'Successfully earned the national diploma in Experimental Sciences, providing a solid foundation in mathematics, physics, and scientific methodology.'
     }
   ];
 
@@ -45,7 +30,7 @@ const Experience = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">
-            Education & Experience
+            Education & Learning Journey
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-purple-600 to-pink-600 mx-auto"></div>
         </div>

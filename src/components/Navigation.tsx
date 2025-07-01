@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { useTheme } from '@/contexts/ThemeContext';
 import { Moon, Sun, Menu, X } from 'lucide-react';
@@ -43,7 +42,7 @@ const Navigation = () => {
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
             <h1 className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
-              Sarah Dev
+              Wafa Dev
             </h1>
           </div>
 
