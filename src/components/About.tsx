@@ -14,21 +14,8 @@ const About = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
-              I am an aspiring Frontend Developer who values autonomism—I believe in taking initiative 
-              and working independently to solve problems and build effective web applications. 
-              Although I am at the beginning of my career, I am motivated to learn and grow by 
-              exploring new technologies and frameworks on my own.
-            </p>
-            
-            <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
-              I have a solid foundation in HTML, CSS, and JavaScript, and I am gaining experience 
-              with popular frontend frameworks like React and Vue. I'm also learning about 
-              authorization techniques to build secure and user-friendly interfaces.
-            </p>
-
-            <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
-              I'm excited about the journey ahead and open to opportunities where I can contribute 
-              and develop as a frontend developer.
+              I'm a frontend developer with a passion for clean code and UI design.<br/>
+              I also create visuals using Photoshop and Illustrator.
             </p>
           </div>
 

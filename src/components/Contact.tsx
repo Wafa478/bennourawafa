@@ -75,8 +75,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900 dark:text-white">LinkedIn</h4>
-                    <a href="https://linkedin.com/in/wafa-ben-noura" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors">
-                      wafa ben noura
+                    <a href="https://www.linkedin.com/in/wafa-ben-noura-0b3786285" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors">
+                      @https://www.linkedin.com/in/wafa-ben-noura-0b3786285
                     </a>
                   </div>
                 </div>
